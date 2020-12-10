@@ -1,0 +1,13 @@
+header {
+    background-color: $primary_background ;
+}
+nav {
+    ul {
+        @include flex-menu-row ;
+        width: 50%;
+        float: right;  
+
+    }
+
+
+}
