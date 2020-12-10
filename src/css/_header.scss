@@ -1,13 +1,21 @@
 header {
     background-color: $primary_background ;
+    &:after {
+        @include clearfix;
+    }
 }
 nav {
     ul {
-        @include flex-menu-row ;
-        width: 50%;
-        float: right;  
+        display: inline-block;
+        // width: 50%;
+        li {
+            display: inline-block;
+            padding: 10px;
+        }
 
     }
-
+    .float-right:after{
+        @include clearfix ;
+    }
 
 }
