@@ -1,0 +1,21 @@
+#jumbotron {
+    padding: 20 20px;
+    background-image: url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg');
+    a {
+        text-decoration: none;
+        i {
+            display: inline-block;
+            font-size: 2em;
+        }
+        span {
+            display: block;
+        }
+    }
+}
+.download-software {
+    background-color: #666;
+    &:hover {
+        background-color: darken(#666, 10%);
+        color: #fff ;
+    }
+}

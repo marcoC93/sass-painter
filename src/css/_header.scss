@@ -4,18 +4,46 @@ header {
         @include clearfix;
     }
 }
-nav {
+#header-top {
+    height: 50px;
     ul {
         display: inline-block;
         // width: 50%;
+
         li {
             display: inline-block;
             padding: 10px;
         }
 
+        i {
+            color: $brand_color;
+        }
+
     }
     .float-right:after{
         @include clearfix ;
+    }
+
+}
+#header-bottom {
+    width: 100% ;
+    height: 50px;
+    @include flex-menu-row;
+    img {
+        width: 100%;
+        display: inline-block;
+    }
+    ul {
+        @include flex-menu-row;
+        flex-grow: 1;
+        li {
+            color: white;
+        }
+    }
+
+    img {
+
+        height: 100%;
     }
 
 }
