@@ -20,7 +20,6 @@ ul {
 header {
   background-color: black;
 }
-
 header:after {
   display: table;
   content: "";
@@ -30,20 +29,16 @@ header:after {
 #header-top {
   height: 50px;
 }
-
 #header-top ul {
   display: inline-block;
 }
-
 #header-top ul li {
   display: inline-block;
   padding: 10px;
 }
-
 #header-top ul i {
   color: #009cff;
 }
-
 #header-top .float-right:after {
   display: table;
   content: "";
@@ -58,12 +53,10 @@ header:after {
   justify-content: space-around;
   align-items: center;
 }
-
 #header-bottom img {
   width: 100%;
   display: inline-block;
 }
-
 #header-bottom ul {
   display: flex;
   flex-direction: row;
@@ -71,11 +64,9 @@ header:after {
   align-items: center;
   flex-grow: 1;
 }
-
 #header-bottom ul li {
   color: white;
 }
-
 #header-bottom img {
   height: 100%;
 }
@@ -84,16 +75,13 @@ header:after {
   padding: 20 20px;
   background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg");
 }
-
 #jumbotron a {
   text-decoration: none;
 }
-
 #jumbotron a i {
   display: inline-block;
   font-size: 2em;
 }
-
 #jumbotron a span {
   display: block;
 }
@@ -101,7 +89,6 @@ header:after {
 .download-software {
   background-color: #666;
 }
-
 .download-software:hover {
   background-color: #4d4d4d;
   color: #fff;
@@ -109,16 +96,45 @@ header:after {
 
 #price-offer {
   position: relative;
+  margin: 20px;
+  background: black;
 }
-
 #price-offer span {
   display: block;
   padding: 10px;
+  font-size: 20px;
 }
-
 #price-offer img {
   position: absolute;
   top: 10px;
   right: 10px;
 }
+#price-offer button {
+  margin: 10px;
+  padding: 10px;
+  background-color: #009cff;
+  border: 1px solid #009cff;
+  color: #fff;
+}
+#price-offer #limited-offer {
+  background: white;
+  margin: 10px;
+}
 
+footer {
+  background-color: black;
+}
+footer ul {
+  padding: 20px;
+}
+footer #social-icons {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+footer #footer-copyright-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}

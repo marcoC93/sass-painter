@@ -1,0 +1,16 @@
+footer {
+    background-color: $primary_background ;
+    ul {
+        padding: $standard_spacing;
+    }
+    #social-icons {
+        display: flex;
+        justify-content: space-around;
+        padding: $standard_spacing / 2 ;
+    }
+    #footer-copyright-row {
+        @include flex-menu-row;
+    }
+
+
+}
